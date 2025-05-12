@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 1.25rem;
+   gap: 20%;
+   
+  }
+ 
+  header .logo {
+    padding-left: 8.75rem;
+    width: 10.313rem;
+height: 4.25rem;
+  }
+
+  nav a {
+    margin-left: 1.25rem;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 900;
+    font-size: 1.563rem;
+    padding-right: 8.75rem;
+  }
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap :15rem;
+  }
+.frame {
+  padding-right: 8.813rem;
+}
+.frame img{ 
+  width: 41.75rem;
+  height: 27.875rem;
+ 
+}
+.text p{
+  width: 27.188rem;
+height: 4rem;
+padding-top: 2.188rem;
+
+}
+.gameboy{
+  padding-left:  8.813rem;
+  width: 27.188rem;
+height: 9.813rem;
+gap: 1rem;
+}
+.gameboy img{
+  width: 27.188rem;
+height: 9.813rem;
+}
+  .devices{
+    text-align: center;
+    padding:5rem 1.25rem;
+  }
+  .device-list {
+    display: flex;
+    justify-content: center;
+    gap: 6.875rem;
+    flex-wrap: wrap;
+    margin-top: 1.875rem;
+    padding: 2.5rem;
+  }
+  .devices h2{
+    font-family: Inter;
+font-weight: 600;
+font-size: 1.563rem;
+line-height: 100%;
+letter-spacing: 0%;
+  }
+.NES{
+  width: 72.063rem;
+height:6rem;
+padding-top:3.125rem;
+padding-left:8.75rem ;
+}
+.NES p{
+  font-family: Inter;
+font-weight: 300;
+font-size: 1.25rem;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.avalible {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  }
+
+.avalible h2{
+  font-family: Joystix;
+  font-weight: 400;
+  font-size:1.875rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  height: 36px;
+  
+}
+.books{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.book-list{
+  display: flex;
+  gap: 6.25rem;
+  flex-wrap: wrap; 
+  flex-direction: row-reverse;
+  
+
+}
+.book-list img{
+  width: 280px;
+height: 153px;
+}
+.card{
+  display: flex;
+  align-items: center;
+}
+.game-info{
+  width: 9.375rem;
+  height: 3.75rem;
+  
+
+}
+.card button{
+  width: 77px;
+  height: 23px;
+  background-color:#2686B0 ;
+  color: white;
+  border-radius: 43px;
+  cursor: pointer;
+}
+.card a{
+  width: 67px;
+  height: 15px;
+  color: #2686B0;
+}
+
+.card1{
+  display: flex;
+  align-items: center;
+}
+.card1 button{
+  width: 77px;
+  height: 23px;
+  background-color:#2686B0 ;
+  color: white;
+  border-radius: 43px; 
+  cursor: pointer;
+}
+.card1 a{
+  width: 67px;
+  height: 15px;
+  color: #2686B0;
+}
+.game-info1{
+  width: 9.375rem;
+  height: 3.75rem;
+  
+}
+
+.card2{
+  display: flex;
+  align-items: center;
+}
+.card2 button{
+  width: 77px;
+  height: 23px;
+  background-color:#2686B0 ;
+  color: white;
+  border-radius: 43px;
+  cursor: pointer;
+}
+.card2 a{
+  width: 67px;
+  height: 15px;
+  color: #2686B0;
+}
+.game-info2{
+  width: 9.375rem;
+  height: 3.75rem;
+ 
+}
+.cards{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.bigbook{
+  display: flex;
+}
+.bigbook img{
+  width: 563px;
+  height: 563px;
+}
+.free-plan{
+  padding: 60px 20px;
+  text-align: center;
+}
+.free-cards{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 50px;
+}
+.free-cards img{
+  width: 275px;
+  height:373px;
+}
+.products{
+  padding-left: 140px;
+  padding-bottom: 50px;
+}
+.about, .plans, .contact {
+    padding: 60px 20px;
+    text-align: center;
+  }
+.plan-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+.plan-cards img {
+    max-width: 150px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: auto;
+  }
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  footer {
+    background-color: #001b3f;
+    color: #fff;
+    padding: 40px 20px;
+    width: 100%;
+  }
+  .footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer-columns div {
+    margin: 10px;
+    min-width: 150px;
+  }
+
+  @media (max-width: 1200px) {
+    .hero {
+        padding: 20px;
+    }
+    .hero h1 {
+        font-size: 2.5rem; 
+    }
+
+    .device-list img {
+        max-width: 80px; 
+    }
+
+    .book-list img {
+        max-width: 120px; 
+    }
+    header {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+ 
+.frame
+{padding-top: 0;
+    justify-content: center;
+}
+  header .logo {
+    padding-left: 0;
+    width: 8rem;
+    height: auto;
+  }
+
+  nav a {
+    padding-right: 0;
+    margin-left: 1rem;
+  }
+
+}
+@media (max-width: 768px) {
+  .gameboy, .NES, .products {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .bigbook {
+    flex-direction: column;
+    align-items: center;
+  }
+  .book-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .NES{
+    max-width: 100%;
+    height: auto;
+  }
+  .footer{
+    width: 100%;
+    height: auto;
+  }
+  .hero{
+    gap: 3rem;
+    height: auto;
+    max-width: 100%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .hero{
+    gap: 5rem;
+  }
+    .hero h1 {
+        font-size: 2rem; 
+    }
+
+    nav {
+        flex-direction: row; 
+        align-items: center; 
+        margin-top: 10px; 
+    }
+
+    nav a {
+        font-size: 16px; 
+    }
+
+    .device-list img {
+        max-width: 60px;
+    }
+
+    .book-list img {
+      flex-direction: column;
+      align-items: center; 
+    }
+    .footer{
+      width: 100%;
+      height: auto;
+    }
+}

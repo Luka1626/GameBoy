@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(23218e63778dfe9fca999f7e2065bf60.png);
+}
+
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 1.25rem;
+   gap: 20%;
+   
+  }
+header .logo {
+    padding-left: 8.75rem;
+    width: 10.313rem;
+height: 4.25rem;
+  }
+
+  nav a {
+    margin-left: 1.25rem;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 900;
+    font-size: 1.563rem;
+    padding-right: 8.75rem;
+  }
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 40px;
+}
+
+.left-content {
+  flex: 1;
+  max-width: 50%;
+  padding-left: 8.75rem;
+  padding-top: 15.813rem;
+}
+.left-content h1{
+    font-family: Joystix;
+font-weight: 400;
+font-size: 45px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #B80A41;
+
+}
+.left-content p{
+    font-family: Roboto;
+font-weight: 300;
+font-size: 0.875rem;
+line-height: 100%;
+letter-spacing: 0%;
+height:5rem;
+width:25rem;
+}
+.left-content h2{
+    font-family: Joystix;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+padding-top:20px ;
+}
+.container{
+    padding-top: 20px;
+}
+.container h3{
+    padding-top: 40px;
+    font-family: Roboto;
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.right-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding-top:15.813rem ;
+}
+
+.right-content img {
+  max-width: 100%;
+  height: 760px;
+  border: 5px solid #333;
+}
+
+.game-types {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.game-types img {
+  width: 60px;
+  height: auto;
+  border-radius: 4px;
+}
+.game-cards img{
+    width: 7.625rem;
+    height: 7.625rem;
+}
+.game-cards{
+display: flex;
+flex-direction: row;
+gap: 1.25rem;
+padding-top: 1.25rem;
+}
+
+footer {
+    background-color: #001b3f;
+    color: #fff;
+    padding: 40px 20px;
+    width: 100%;
+  }
+  .footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer-columns div {
+    margin: 10px;
+    min-width: 150px;
+  }
+  
+
+.offer{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.offer h1{
+    font-family: Joystix;
+font-weight: 400;
+font-size: 1.875rem;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.plan{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.plan img{
+    height: 24.625rem;
+    width: 16.938rem;
+}
+
+
+
+
+@media (max-width: 1200px) {
+  .flex-container {
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .left-content, .right-content {
+    max-width: 100%;
+    padding: 1rem 2rem;
+  }
+
+  .left-content {
+    padding-left: 0;
+    padding-top: 1rem;
+  }
+
+  .right-content {
+    padding-top: 0;
+    justify-content: center;
+  }
+
+  .right-content img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+  }
+
+  .left-content p {
+    width: 100%;
+    height: auto;
+  }
+
+  .game-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .game-cards img {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  header .logo {
+    padding-left: 0;
+    width: 8rem;
+    height: auto;
+  }
+
+  nav a {
+    padding-right: 0;
+    margin-left: 1rem;
+  }
+  .plan{
+     padding-top: 0;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .left-content h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .left-content h2, .container h3 {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .container .list,.container .list2,.container .list3 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+  }
+
+  .game-cards img {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 600px) {
+  .left-content h1 {
+    font-size: 28px;
+  }
+
+  .left-content h2, .container h3 {
+    font-size: 18px;
+  }
+
+  .right-content img {
+    max-height: 300px;
+  }
+
+  .game-cards img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  nav a {
+    font-size: 1.25rem;
+  }
+}
